@@ -400,7 +400,7 @@ h2 {
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 15px;
-    background: var(--vilkek);
+    background: #f4f4f4;
     text-align: center;
 }
 .testimonial p{
