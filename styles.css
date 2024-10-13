@@ -130,7 +130,8 @@ section {
 	gap:30px;
 	margin-top:6rem;
 	margin-bottom:1rem;
-
+	padding-bottom: 2rem;
+	
 	@media (max-width:1440px){
 		padding-left:30px;
 		padding-right:30px;
