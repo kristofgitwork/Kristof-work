@@ -184,6 +184,12 @@ section {
 		}
 	}
 }
+.hero-jobb img,
+.sulik img,
+.hobbi-item img{
+	width: 100%;
+}
+	
 .button {
 	display:inline-block;
 	padding:10px 30px;
