@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./styles.css">
-    <script src="./scripts.js"></script>
-    <link rel="icon" type="image/jpg" href="./kepek/kristof.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="kepek/kristof.png">
 </head>
 <body>
     <header>
@@ -20,7 +20,7 @@
         </a>
         <nav>
             <ul id="menu">
-                <li><a href="#">Rólam</a></li>
+                <li><a href="#about">Rólam</a></li>
                 <li><a href="#tanulmanyok">Tanulmányok</a></li>
                 <li><a href="#hobbik">Hobbik</a></li>
                 <li><a href="mailto:ligeti.kristof1@gmail.com" class="button">Kapcsolat</a></li>
@@ -42,8 +42,8 @@
                         iskoláimról illetve hogy miért is választottam ezt a szakot. Talán utóbbit a legegyszerűbb megmagyarázni hiszen márelég régóta érdekel az energetika,
                         és ebből raktam le a német C1-emet is. Ezt itt alább be is linkelem:
                     </p>
-                    <div class="call-to-action">
-                        <a href="dsd_portfolio_kristof_ligeti.pdf" class="button">Energetika</a>
+                    <div class="about-buttons">
+                        <a href="dsd_portfolio_kristof_ligeti.pdf" class="button">Energetika -> letöltés</a>
                         <a href="mailto:ligeti.kristof1@gmail.com" class="button">Kapcsolat</a>
                     </div>
                 </div>
@@ -52,6 +52,8 @@
                 <img src="kepek/kristof.png" alt="Ligeti Kristóf" width="100%" />
             </div>
         </section>
+
+        <!-- Tanulmanyok -->
         <section id="tanulmanyok" class="iskolak container">
             <h2>Tanulmányok</h2>
             <div class="sulik">
@@ -87,15 +89,17 @@
                 </article>
             </div>
         </section>
+
+        <!-- Hobbik -->
         <section id="hobbik" class="hobbik container">
             <h2>Hobbik</h2>
             <div class="hobbik-grid">
                 <div class="hobbi-item">
                     <img src="kepek/hobbi1.jpg" alt="Foci" width="100%" />
 				</div>
-                <a href="#" class="hobbi-item">
+                <div class="hobbi-item">
                     <img src="kepek/hobbi2.jpg" alt="Könyvek" width="100%" />
-                </a>
+                </div>
                 <div class="hobbi-item">
                     <img src="kepek/hobbi3.jpg" alt="Gameing" width="100%" />
 				</div>
@@ -105,12 +109,18 @@
                 <div class="hobbi-item">
                     <img src="kepek/hobbi5.jpg" alt="Canga" width="100%" />
 				</div>
-                <a href="https://www.pexels.com">Photos provided by Pexels</a>
-
-				This <a href="https://www.pexels.com/photo/food-dinner-lunch-meal-4147875">Photo</a> was taken by <a href="https://www.pexels.com/@daria">Daria</a> on Pexels.
-
-							</div>
+            </div>
         </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section">
+            <h2>Vélemények</h2>
+            <div id="testimonial-container" class="testimonials">
+                <!-- Testimonials will be injected here by JavaScript -->
+            </div>
+            <button id="load-more">Mutass többet</button>
+        </section>
+
     </main>
 </body>
 </html>
