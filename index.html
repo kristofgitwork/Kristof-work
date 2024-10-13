@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="./kepek/kristof.png">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo">LK</div>
+            <div class="logo-text">Ligeti Kristóf portfólió</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li><a href="#">Rólam</a></li>
+                <li><a href="#tanulmanyok">Tanulmányok</a></li>
+                <li><a href="#hobbik">Hobbik</a></li>
+                <li><a href="mailto:ligeti.kristof1@gmail.com" class="button">Kapcsolat</a></li>
+            </ul>
+            <a href="#" class="mobile-toggle" onclick="toggleMobileMenu();" aria-label="Toggle Mobile Menu">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+                </svg>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container">
+            <div class="hero-bal">
+                <div>
+                    <h1><small>Nevem:</small> Ligeti Kristóf</h1>
+                    <p>
+                        Szia én Kristóf vagyok és most kezdtem meg a BME-n a tanulmányaimat. Ez egy is összefoglaló weboldal lenne rólam, a hobbijaimról,
+                        iskoláimról illetve hogy miért is választottam ezt a szakot. Talán utóbbit a legegyszerűbb megmagyarázni hiszen márelég régóta érdekel az energetika,
+                        és ebből raktam le a német C1-emet is. Ezt itt alább be is linkelem:
+                    </p>
+                    <div class="call-to-action">
+                        <a href="dsd_portfolio_kristof_ligeti.pdf" class="button">Energetika</a>
+                        <a href="mailto:ligeti.kristof1@gmail.com" class="button">Kapcsolat</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-jobb">
+                <img src="./kepek/kristof.png" alt="Ligeti Kristóf" width="100%" />
+            </div>
+        </section>
+        <section id="tanulmanyok" class="iskolak container">
+            <h2>Tanulmányok</h2>
+            <div class="sulik">
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./kepek/suli1.jpg" alt="Mindszenty Iskola" width="100%" />
+                            <figcaption>Áltsuli - Mindszenty</figcaption>
+                        </div>
+                    </figure>
+                    <h3>Mindszenty József Római Katolikus Óvoda és Nyelvoktató Német Nemzetiségi Általános Iskola</h3>
+                    <div>2012-2016</div>
+                </article>
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./kepek/suli2.jpg" alt="SZIG" width="100%" />
+                            <figcaption>Gimnázium - SZIG</figcaption>
+                        </div>
+                    </figure>
+                    <h3>Budai Ciszterci Szent Imre Gimnázium</h3>
+                    <div>2016-2024</div>
+                </article>
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./kepek/suli3.jpg" alt="BME" width="100%" />
+                            <figcaption>Egyetem - BME</figcaption>
+                        </div>
+                    </figure>
+                    <h3>Budapesti Műszaki és Gazdaságtudományi Egyetem</h3>
+                    <div>2024-</div>
+                </article>
+            </div>
+        </section>
+        <section id="hobbik" class="hobbik container">
+            <h2>Hobbik</h2>
+            <div class="hobbik-grid">
+                <div class="hobbi-item">
+                    <img src="./kepek/hobbi1.jpg" alt="Foci" width="100%" />
+				</div>
+                <a href="#" class="hobbi-item">
+                    <img src="./kepek/hobbi2.jpg" alt="Könyvek" width="100%" />
+                </a>
+                <div class="hobbi-item">
+                    <img src="./kepek/hobbi3.jpg" alt="Gameing" width="100%" />
+				</div>
+                <div class="hobbi-item">
+                    <img src="./kepek/hobbi4.jpg" alt="Mvasut" width="100%" />
+				</div>
+                <div class="hobbi-item">
+                    <img src="./kepek/hobbi5.jpg" alt="Canga" width="100%" />
+				</div>
+                <a href="https://www.pexels.com">Photos provided by Pexels</a>
+
+				This <a href="https://www.pexels.com/photo/food-dinner-lunch-meal-4147875">Photo</a> was taken by <a href="https://www.pexels.com/@daria">Daria</a> on Pexels.
+
+							</div>
+        </section>
+    </main>
+</body>
+</html>
