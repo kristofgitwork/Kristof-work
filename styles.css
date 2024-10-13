@@ -5,14 +5,14 @@
 }
 :root {
 	--alap: #000000;
-	--fehér: #ffffff;
-	--kék: #1f56cd;
+	--feher: #ffffff;
+	--kek: #1f56cd;
 	--fekete: #000000;
-	--szürke: #d4dde0;
-    --vilkék: #e0fbff;
+	--szurke: #d4dde0;
+    --vilkek: #e0fbff;
 	
 }
-
+/* General Styles */
 body{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -27,6 +27,7 @@ a {
 	}
 }
 
+/* Header */
 header {
 	padding-top:10px;
 	padding-bottom:10px;
@@ -49,7 +50,7 @@ header {
 			justify-content:center;
 			font-size:32px;
 			background-color: var(--alap);
-			color: var(--fehér);
+			color: var(--feher);
 			height:64px;
 			width:64px;
 			margin-right:20px;
@@ -75,7 +76,7 @@ header {
 					padding:10px 20px;
 					color:var(--alap);
 					&:hover {
-						background-color: var(--szürke);
+						background-color: var(--szurke);
 						border-radius:10px;
 						text-decoration:none;
 					}
@@ -121,6 +122,8 @@ header {
 		}
 	}
 }
+
+/* Sections */
 section {
 	max-width:1440px;
 	margin:auto;
@@ -164,7 +167,7 @@ section {
 	}
 	.hero-jobb {
 		flex:1;
-		background-color: var(--kék);
+		background-color: var(--kek);
 		border-radius:30px;
 		padding:0px 30px;
 		display:flex;
@@ -180,13 +183,13 @@ section {
 .button {
 	display:inline-block;
 	padding:10px 30px;
-	background-color: var(--fehér);
+	background-color: var(--feher);
 	color: var(--fekete);
 	border-radius:10px;
 	transition: ease 0.3s all;
 	&:hover {
 		text-decoration:none;
-		background-color: var(--kék);
+		background-color: var(--kek);
 	}
 }
 p{
@@ -194,7 +197,7 @@ p{
 }
 
 h1 {
-    color: var(--fehér);
+    color: var(--feher);
 	font-size:64px;
 	line-height:1;
 	margin-bottom:10px;
@@ -233,7 +236,7 @@ h2 {
 			flex-direction:column;
 		}
 		article {
-			background-color: var(--vilkék);
+			background-color: var(--vilkek);
 			padding:30px;
 			border-radius:30px;
 			flex:1;
@@ -269,7 +272,7 @@ h2 {
 					left:0;
 					right:0;
 					background-color: rgba(0,0,0,0.5);
-					color: var(--fehér);
+					color: var(--feher);
 					text-align:center;
 					padding:10px;
 					opacity:0;
@@ -310,7 +313,7 @@ h2 {
 		}
 		.hobbi-item {
 			padding:30px;
-			background-color: var(--vilkék);
+			background-color: var(--vilkek);
 			border-radius:15px;
 			position:relative;
 			overflow:hidden;
@@ -381,5 +384,39 @@ h2 {
 		}
 	}
 }
+/* Testimonials */
+#testimonial-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
+.testimonial {
+    width: 30%; /* Adjust width to fit 3 testimonials per row */
+    padding: 15px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#load-more {
+    margin: 20px auto;
+    display: block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
     
+@media (max-width: 768px) {
+    .testimonial {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
