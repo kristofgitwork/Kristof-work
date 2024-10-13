@@ -399,7 +399,9 @@ h2 {
     background: #f9f9f9;
     text-align: center;
 }
-
+.testimonial p{
+    color:  var(--alap);
+}
 .testimonial img {
     border-radius: 50%;
     margin-bottom: 10px;
