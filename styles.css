@@ -185,6 +185,9 @@ section {
 			max-width:420px;
 			margin-bottom:0px;
 		}
+		@media (max-width: 768px){
+			margin-top: 3rem;
+		}
 	}
 }
 .hero-jobb img,
