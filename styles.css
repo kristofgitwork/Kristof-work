@@ -399,7 +399,8 @@ h2 {
     width: 30%; /* Adjust width to fit 3 testimonials per row */
     padding: 15px;
     border: 1px solid #ddd;
-    background: #f9f9f9;
+    border-radius: 15px;
+    background: var(--vilkek);
     text-align: center;
 }
 .testimonial p{
